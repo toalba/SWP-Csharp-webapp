@@ -12,4 +12,5 @@
 /dataSources/
 /dataSources.local.xml
 /.idea
-/Web-App/obj
+/obj/
+/bin/
