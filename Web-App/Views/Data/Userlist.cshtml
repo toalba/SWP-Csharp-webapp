@@ -1,0 +1,26 @@
+@model List<Web_App.Models.User>
+@{
+    ViewData["Title"] = "Data";
+}
+
+<div class="container">
+    <h3>einen Userliste uebergeben</h3>
+    <table>
+        <thead>
+            <th>ID</th>
+            <th>Name</th>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <td>@user.id</td>
+                <td>@user.Name</td>
+            }
+        </tbody>
+        <tfoot>
+            <td colspan="4"> Liste der User</td>
+        </tfoot>
+    </table>
+
+    
+</div>
