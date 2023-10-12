@@ -22,7 +22,7 @@ public class  Websitecontext : DbContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            optionsBuilder.UseNpgsql("server=localhost;uid=admin;pwd=wa22er!wasser;database=webapp");
+            optionsBuilder.UseNpgsql("server=localhost;uid=postgres;pwd=passwort;database=webapp");
         }
     }
 
