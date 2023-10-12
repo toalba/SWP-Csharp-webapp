@@ -1,7 +1,17 @@
+@model Web_App.Models.User
 @{
     ViewData["Title"] = "Benutzerverwaltung";
 }
 
 <div class="container">
-    Login
+    <form asp-controller="User" asp-action="Login" method="post">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Name</label>
+        <input type="password" class="form-control" asp-for="Name">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+      </div>
+      <input type="submit" class="btn btn-primary" value="Einloggen"/>
+    </form>
 </div>

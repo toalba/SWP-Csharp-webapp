@@ -13,8 +13,10 @@
         <tbody>
             @foreach (var user in Model)
             {
-                <td>@user.id</td>
-                <td>@user.Name</td>
+                <tr>
+                    <td>@user.id</td>
+                    <td>@user.Name</td>
+                </tr>
             }
         </tbody>
         <tfoot>

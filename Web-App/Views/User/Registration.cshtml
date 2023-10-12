@@ -1,7 +1,29 @@
+@model Web_App.Models.User
 @{
     ViewData["Title"] = "Benutzerverwaltung";
 }
 
 <div class="container">
-    Registration
+    <form  asp-controller="User" asp-action="Registration"  method="post">
+        <table class="table">
+            <thead>
+            
+            </thead>
+            <tbody>
+            <tr>
+                <th>Name</th>
+                <td>
+                    <input type="text" asp-for="Name" />
+                    <span asp-validation-for="Name"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="btn btn-success" type="submit" value="Absenden"/>
+                    <input class="btn btn-danger" type="reset" value="Abbrechen"/>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
 </div>
