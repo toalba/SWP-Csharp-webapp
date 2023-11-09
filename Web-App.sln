@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web-App", "Web-App\Web-App.csproj", "{99F72544-3FD7-4DDB-9E68-C88DC8A79B54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTL-yolov8", "HTL-yolov8\HTL-yolov8.csproj", "{282B7B01-AD1E-4506-B609-A4B0C01DF189}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{99F72544-3FD7-4DDB-9E68-C88DC8A79B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99F72544-3FD7-4DDB-9E68-C88DC8A79B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99F72544-3FD7-4DDB-9E68-C88DC8A79B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{282B7B01-AD1E-4506-B609-A4B0C01DF189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282B7B01-AD1E-4506-B609-A4B0C01DF189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282B7B01-AD1E-4506-B609-A4B0C01DF189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282B7B01-AD1E-4506-B609-A4B0C01DF189}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

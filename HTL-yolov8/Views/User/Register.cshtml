@@ -1,0 +1,45 @@
+@model HTL_yolov8.Models.User
+@{
+    ViewData["Title"] = "Registration";
+}
+
+<div class="container">
+    <form  asp-controller="User" asp-action="Register"  method="post">
+        <table class="table">
+            <thead>
+            <tr>
+                <th colspan="4">Reistration</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>Name</th>
+                <td>
+                    <input type="text" asp-for="name" />
+                    <span asp-validation-for="name"/>
+                </td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>
+                    <input type="text" asp-for="email" />
+                    <span asp-validation-for="email"/>
+                </td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td>
+                    <input type="password" asp-for="password" />
+                    <span asp-validation-for="password"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="btn btn-success" type="submit" value="Absenden"/>
+                    <input class="btn btn-danger" type="reset" value="Abbrechen"/>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
